@@ -1,0 +1,169 @@
+
+
+html{
+  background: #9e9d9d;
+  font-family: Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+}
+
+body{
+  background: #ffffff;
+  width: 95%;
+  max-width: 80%;
+  margin: 1rem auto;
+  line-height: 1.8em;
+  min-width: 700px;
+}
+
+.principal{
+  margin: 0rem 1rem 0rem 1.5rem;
+}
+
+.contenedor{
+  padding: 1rem 0rem 3rem 0rem;
+}
+
+.contenedor a{
+  text-decoration: none;
+}
+
+.encabezado {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.encabezado h1{
+  text-align: center;
+}
+ 
+.foto-datos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px  10px 30px;
+}
+
+.foto-datos ul li{
+  margin-bottom: 0.8rem;
+  list-style: none;
+}
+
+.foto-datos ul li i{
+  padding-right: 1rem;
+}
+
+.foto-datos ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.navegador{
+  background: #4a4a4a;
+  text-align: center;
+}
+
+.navegador ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+.navegador ul li{
+  display: inline-block;
+}
+
+.navegador ul li a{
+  display: block;
+  padding: .5rem 3rem;
+  font-size: small;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.navegador ul li a:hover{
+  background: #8b8b8b;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  color: blue;
+}
+
+h2{
+  text-indent: 0.5rem;
+  background-color: rgb(230, 221, 221);
+  padding: 1rem 0px;
+  margin-bottom: 2rem;
+}
+
+#margen_lista1{
+  margin-top: 3rem;
+}
+
+#margen_dt dt{
+margin-top: 3rem;
+/*line-height: 2rem;*/
+}
+
+#margen_dt dd{
+  margin-top: 1.4rem;
+}
+
+.boton_estudios{
+  background-color: #008CBA;
+  border-color: #008CBA;
+  color: blanchedalmond;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 1.5rem;
+  transition-duration: 0.4s;
+}
+
+.boton_estudios:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boton_estudios:hover {
+  background-color: blanchedalmond;;
+  color: #008CBA;
+  box-shadow: 0 12px 16px 0 rgb(7, 7, 7),0 17px 50px 0 rgb(8, 8, 8);
+}
+
+
+.pie-pagina{
+  color: white;
+  background: rgb(92, 127, 151);
+  padding: 1rem 0rem 0rem 0rem;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.pie-pagina a{
+  color: white;
+}
+
+/** A continuacion se va a dar estilo al boton que permite volver a la parte superior de la pagina*/
+
+.btn-scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background: #333;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: 0.5s;
+}
+    
+.btn-scrolltop-on {
+  transform: translateY(0);
+}
